@@ -14,14 +14,13 @@ examples/
 Gruntfile.js
 PUBLISHING.md
 test/
-test-config.json
+test-arduino
+test-electron
+test-manual
 UPGRADE_GUIDE.md
 changelog.md
 .DS_Store
 docs
-
-# MIRRORED FROM .gitignore PLEASE MAINTAIN
-.mailmap
 build/
 coverage
 node_modules

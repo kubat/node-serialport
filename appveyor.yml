@@ -50,12 +50,11 @@ install:
 # - ps: $env:TEST_PORT = "COM1";
 
 build_script:
-- npm install --build-from-source
+- npm install
 
 test_script:
 - ps: >
-    npm run lint
-    node ./
+    npm run lint;
 
 # If we run npm test in powershell it'll have the wrong encoding so we have to do it like this
 - npm test
